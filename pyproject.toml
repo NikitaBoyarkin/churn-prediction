@@ -1,0 +1,15 @@
+[project]
+name = "churn-prediction"
+version = "0.1.0"
+description = "Churn prediction: time-aware features, leakage-free CV, gradient boosting + native SHAP, business metric = recall@top-decile."
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scikit-learn>=1.4",
+    "lightgbm>=4.3",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]

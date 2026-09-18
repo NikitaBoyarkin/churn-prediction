@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.DS_Store
+*.pyc
+data/*.csv
+data/*.parquet
+reports/*.png
+reports/*.json
+.pytest_cache/
+uv.lock
