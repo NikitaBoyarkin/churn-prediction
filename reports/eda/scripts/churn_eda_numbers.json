@@ -1,0 +1,354 @@
+{
+  "users_rows": 12000,
+  "users_cols": 7,
+  "activity_rows": 455443,
+  "signup_min": "2023-06-01",
+  "signup_max": "2024-01-31",
+  "death_min": "2023-06-08",
+  "death_max": "2024-05-01",
+  "activity_date_min": "2023-06-01",
+  "activity_date_max": "2024-05-01",
+  "users_full_dup": 0,
+  "activity_full_dup": 0,
+  "users_dup_id": 0,
+  "activity_dup_userday": 0,
+  "users_null_counts": {
+    "user_id": 0,
+    "signup_date": 0,
+    "channel": 0,
+    "device": 0,
+    "country": 0,
+    "plan": 0,
+    "death_date": 0
+  },
+  "activity_null_counts": {
+    "user_id": 0,
+    "active_date": 0,
+    "sessions": 0,
+    "events": 0
+  },
+  "activity_orphan_users": 0,
+  "death_at_horizon": 3508,
+  "death_before_signup": 0,
+  "sessions_range": [
+    1,
+    4
+  ],
+  "events_range": [
+    1,
+    20
+  ],
+  "lifetime_days_mean": 113.44675,
+  "lifetime_days_median": 101.0,
+  "lifetime_days_skew": 0.6871667233336647,
+  "lifetime_days_p95": 273.0,
+  "naive_is_churned_share": 1.0,
+  "test_n": 5581,
+  "test_base_rate": 0.17398315714029744,
+  "test_censored_n": 3889,
+  "test_censored_share": 0.6968285253538792,
+  "test_at_risk_n": 1692,
+  "test_at_risk_base_rate": 0.5715130023640662,
+  "test_censored_churn_rate": 0.0010285420416559527,
+  "test_censored_churners": 4,
+  "test_at_risk_churners": 967,
+  "churn_by_segment_full": {
+    "channel": {
+      "email": {
+        "count": 578,
+        "churn_rate": 0.18166089965397925,
+        "share": 0.10356566923490414,
+        "dev_pp": 0.7677742513681807
+      },
+      "organic": {
+        "count": 1976,
+        "churn_rate": 0.13765182186234817,
+        "share": 0.3540584124708834,
+        "dev_pp": -3.633133527794927
+      },
+      "paid_search": {
+        "count": 800,
+        "churn_rate": 0.275,
+        "share": 0.14334348683031714,
+        "dev_pp": 10.101684285970258
+      },
+      "referral": {
+        "count": 1232,
+        "churn_rate": 0.10227272727272728,
+        "share": 0.2207489697186884,
+        "dev_pp": -7.1710429867570165
+      },
+      "social": {
+        "count": 995,
+        "churn_rate": 0.2492462311557789,
+        "share": 0.17828346174520696,
+        "dev_pp": 7.526307401548146
+      }
+    },
+    "device": {
+      "android": {
+        "count": 2280,
+        "churn_rate": 0.1587719298245614,
+        "share": 0.4085289374664039,
+        "dev_pp": -1.5211227315736042
+      },
+      "ios": {
+        "count": 2161,
+        "churn_rate": 0.17445627024525684,
+        "share": 0.3872065938003942,
+        "dev_pp": 0.04731131049593995
+      },
+      "web": {
+        "count": 1140,
+        "churn_rate": 0.20350877192982456,
+        "share": 0.20426446873320195,
+        "dev_pp": 2.9525614789527115
+      }
+    },
+    "country": {
+      "BY": {
+        "count": 440,
+        "churn_rate": 0.15454545454545454,
+        "share": 0.07883891775667443,
+        "dev_pp": -1.9437702594842898
+      },
+      "KZ": {
+        "count": 705,
+        "churn_rate": 0.2028368794326241,
+        "share": 0.126321447769217,
+        "dev_pp": 2.885372229232666
+      },
+      "Other": {
+        "count": 730,
+        "churn_rate": 0.17123287671232876,
+        "share": 0.1308009317326644,
+        "dev_pp": -0.2750280427968682
+      },
+      "RU": {
+        "count": 3033,
+        "churn_rate": 0.17111770524233433,
+        "share": 0.5434509944454399,
+        "dev_pp": -0.28654518979631116
+      },
+      "UA": {
+        "count": 673,
+        "churn_rate": 0.1723625557206538,
+        "share": 0.1205877082960043,
+        "dev_pp": -0.16206014196436525
+      }
+    },
+    "plan": {
+      "basic": {
+        "count": 1661,
+        "churn_rate": 0.16556291390728478,
+        "share": 0.29761691453144595,
+        "dev_pp": -0.8420243233012659
+      },
+      "free": {
+        "count": 3381,
+        "churn_rate": 0.1771665187814256,
+        "share": 0.6058054112166279,
+        "dev_pp": 0.3183361641128174
+      },
+      "pro": {
+        "count": 539,
+        "churn_rate": 0.17996289424860853,
+        "share": 0.09657767425192618,
+        "dev_pp": 0.5979737108311095
+      }
+    }
+  },
+  "overall_churn_rate": 0.17398315714029744,
+  "segment_gap_full": {
+    "channel": {
+      "max_seg": "paid_search",
+      "min_seg": "referral",
+      "ratio": 2.688888888888889
+    },
+    "device": {
+      "max_seg": "web",
+      "min_seg": "android",
+      "ratio": 1.281767955801105
+    },
+    "country": {
+      "max_seg": "KZ",
+      "min_seg": "BY",
+      "ratio": 1.312473925740509
+    },
+    "plan": {
+      "max_seg": "pro",
+      "min_seg": "basic",
+      "ratio": 1.0869758812615955
+    }
+  },
+  "churn_by_segment_at_risk": {
+    "channel": {
+      "email": {
+        "count": 187,
+        "churn_rate": 0.5614973262032086
+      },
+      "organic": {
+        "count": 495,
+        "churn_rate": 0.5474747474747474
+      },
+      "paid_search": {
+        "count": 385,
+        "churn_rate": 0.5714285714285714
+      },
+      "referral": {
+        "count": 226,
+        "churn_rate": 0.5530973451327433
+      },
+      "social": {
+        "count": 399,
+        "churn_rate": 0.6165413533834586
+      }
+    },
+    "device": {
+      "android": {
+        "count": 641,
+        "churn_rate": 0.5616224648985959
+      },
+      "ios": {
+        "count": 662,
+        "churn_rate": 0.56797583081571
+      },
+      "web": {
+        "count": 389,
+        "churn_rate": 0.5938303341902313
+      }
+    },
+    "country": {
+      "BY": {
+        "count": 127,
+        "churn_rate": 0.5354330708661418
+      },
+      "KZ": {
+        "count": 241,
+        "churn_rate": 0.5892116182572614
+      },
+      "Other": {
+        "count": 209,
+        "churn_rate": 0.5980861244019139
+      },
+      "RU": {
+        "count": 914,
+        "churn_rate": 0.5645514223194749
+      },
+      "UA": {
+        "count": 201,
+        "churn_rate": 0.5771144278606966
+      }
+    },
+    "plan": {
+      "basic": {
+        "count": 481,
+        "churn_rate": 0.5717255717255717
+      },
+      "free": {
+        "count": 1036,
+        "churn_rate": 0.5743243243243243
+      },
+      "pro": {
+        "count": 175,
+        "churn_rate": 0.5542857142857143
+      }
+    }
+  },
+  "channel_plan_composition": {
+    "email": {
+      "basic": 0.3062283737024221,
+      "free": 0.6072664359861591,
+      "pro": 0.08650519031141868
+    },
+    "organic": {
+      "basic": 0.30516194331983804,
+      "free": 0.5986842105263158,
+      "pro": 0.09615384615384616
+    },
+    "paid_search": {
+      "basic": 0.2875,
+      "free": 0.62125,
+      "pro": 0.09125
+    },
+    "referral": {
+      "basic": 0.28084415584415584,
+      "free": 0.6176948051948052,
+      "pro": 0.10146103896103896
+    },
+    "social": {
+      "basic": 0.3065326633165829,
+      "free": 0.5919597989949749,
+      "pro": 0.10150753768844221
+    }
+  },
+  "weekly_last8": [
+    {
+      "week": "2024-03-11",
+      "active_days": 10047,
+      "users": 4276,
+      "sessions_per_active_day": 2.4949736239673532
+    },
+    {
+      "week": "2024-03-18",
+      "active_days": 9714,
+      "users": 4090,
+      "sessions_per_active_day": 2.498249948527898
+    },
+    {
+      "week": "2024-03-25",
+      "active_days": 8947,
+      "users": 3861,
+      "sessions_per_active_day": 2.494132111322231
+    },
+    {
+      "week": "2024-04-01",
+      "active_days": 8646,
+      "users": 3691,
+      "sessions_per_active_day": 2.5065926439972244
+    },
+    {
+      "week": "2024-04-08",
+      "active_days": 8280,
+      "users": 3607,
+      "sessions_per_active_day": 2.4946859903381644
+    },
+    {
+      "week": "2024-04-15",
+      "active_days": 7821,
+      "users": 3423,
+      "sessions_per_active_day": 2.493798746963304
+    },
+    {
+      "week": "2024-04-22",
+      "active_days": 7261,
+      "users": 3268,
+      "sessions_per_active_day": 2.4919432585043384
+    },
+    {
+      "week": "2024-04-29",
+      "active_days": 3024,
+      "users": 2184,
+      "sessions_per_active_day": 2.496031746031746
+    }
+  ],
+  "weekly_n": 49,
+  "active_users_total": 11969,
+  "active_days_per_user_mean": 38.051884033753865,
+  "corr_sessions_events_pearson": 0.6546864514618493,
+  "corr_sessions_events_spearman": 0.6576644999902101,
+  "dow_active_days": {
+    "0": 65108,
+    "1": 65150,
+    "2": 65661,
+    "3": 64875,
+    "4": 64818,
+    "5": 64613,
+    "6": 65218
+  },
+  "split_n": {
+    "train": 6768,
+    "val": 6597,
+    "test": 5581
+  }
+}
