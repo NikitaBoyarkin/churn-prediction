@@ -7,6 +7,8 @@
 - 🏦 [Flagship case: Volta neobank](https://github.com/NikitaBoyarkin/volta-banking)
 - 🧪 Related: [rfm-analysis-of-bank-clients](https://github.com/NikitaBoyarkin/rfm-analysis-of-bank-clients) · [sql-analytics-case-study](https://github.com/NikitaBoyarkin/sql-analytics-case-study) · [tableau_cohort_analysis](https://github.com/NikitaBoyarkin/tableau_cohort_analysis)
 
+**▶ [Diagram: Leakage-free churn pipeline](docs/diagrams/churn-prediction.html)** — opens in a browser, no install, no build
+
 **On this page:** [Situation](#situation) · [Task](#task) · [Actions](#actions) · [Result](#result) · [What it does](#what-it-does) · [At-risk subgroup](#at-risk-subgroup) · [Limitations](#limitations) · [Data](#data) · [Quick start](#quick-start) · [Layout](#layout) · [Notes](#notes)
 
 ## Situation
